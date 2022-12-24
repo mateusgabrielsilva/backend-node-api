@@ -46,7 +46,7 @@ server.post('/addUser', (req, res) => {
 
 // Atualizar dados do db 
 server.put('/editUser', (req, res) => {
-    const id = 5
+    const id = req.body.id
     const name = req.body.name
     const email = req.body.email
     const password = req.body.password
@@ -70,7 +70,7 @@ server.put('/editUser', (req, res) => {
 
 // Deletar dados do db
 server.delete('/deleteUser', (req, res) => {
-    const id = 14
+    const id = req.body.id
     // Executando a query do db 
     let queryDelete = `DELETE FROM user WHERE id = ${id}`
 
