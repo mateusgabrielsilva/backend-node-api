@@ -2,7 +2,6 @@
 
 API desenvolvida em Node js afim de estudos em javascript e consumo da mesma para diversos projetos. 
 
-Frameworks utilizados: Express, Nodemon
+Frameworks utilizados: Express, Nodemon, Cors
 
-Deploy na Vercel:
-https://backend-new-api.vercel.app/filmes
+
